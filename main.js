@@ -22,3 +22,7 @@ const firebaseConfig = {
   appId: "1:484031496322:web:2526caec7a1e7527dfb49b",
   measurementId: "G-SCREWE22XP"
 };
+
+// inisialisasi firebase
+const aplikasi = initializeApp(firebaseConfig)
+const basisdata = getFirestore (aplikasi)
